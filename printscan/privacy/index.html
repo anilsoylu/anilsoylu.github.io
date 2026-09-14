@@ -112,9 +112,10 @@
         </p>
         <p>
           Events go to PostHog's EU region. Every event is sent with IP-based
-          location lookup disabled, so no location is derived from it. No profile
-          is created for you: the app never identifies a user and screen-view
-          autocapture is off.
+          location lookup disabled, so no location is derived from it, and the
+          project discards the client IP address on ingest rather than storing it
+          with the event. No profile is created for you: the app never identifies
+          a user and screen-view autocapture is off.
           <a href="https://posthog.com/privacy">PostHog privacy policy</a>.
         </p>
 
