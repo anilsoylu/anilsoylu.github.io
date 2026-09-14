@@ -1,0 +1,5 @@
+# app-ads.txt for the apps published by Anıl Soylu.
+# No advertising SDK ships in any of them yet, so there is no authorized seller
+# to declare. This file exists so a crawler gets a 200 instead of a 404.
+# Add one line per seller (domain, publisher id, DIRECT|RESELLER) when an AdMob
+# publisher id exists.

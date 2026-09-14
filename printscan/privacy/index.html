@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrintScan — Privacy Policy</title>
+    <meta
+      name="description"
+      content="How PrintScan for iPhone handles your scans and what the app sends to third parties."
+    />
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="home" href="../../index.html">Anıl Soylu</a>
+        <nav>
+          <a href="../index.html">PrintScan</a>
+          <a href="../support/index.html">Support</a>
+        </nav>
+      </header>
+
+      <main>
+        <h1>PrintScan Privacy Policy</h1>
+        <p class="meta">Effective 15 September 2026.</p>
+
+        <p>
+          PrintScan is an iPhone app published by Anıl Soylu. This policy covers
+          the app and its share extension. There is no PrintScan account, no
+          sign-in, and no PrintScan server.
+        </p>
+
+        <h2>Your documents stay on the device</h2>
+        <p>
+          Every scan is captured, corrected, stored, recognised and printed on
+          your iPhone. Text recognition uses Apple's Vision framework, which runs
+          on the device. Documents, page images, recognised text, document titles,
+          folder names and signatures are never uploaded.
+        </p>
+        <p>
+          Scans are written to the app's own folder inside your iPhone's
+          Documents directory, so they are included in your iCloud or encrypted
+          local backups, under Apple's terms. PrintScan does not sync them
+          anywhere else. Deleting a document from the app, and then emptying the
+          trash, deletes its files from the device.
+        </p>
+        <p>
+          When you print, the pages are sent to the printer you select over
+          AirPrint on your own network. When you share or export, the file goes
+          to whatever destination you pick in the iOS share sheet; from that
+          point it is covered by that app or service's own policy.
+        </p>
+
+        <h2>Permissions the app asks for</h2>
+        <table>
+          <tr>
+            <th>Permission</th>
+            <th>Why</th>
+          </tr>
+          <tr>
+            <td>Camera</td>
+            <td>
+              To scan a document. The camera is used only while the scanner is
+              open, and the captured pages are stored on the device.
+            </td>
+          </tr>
+          <tr>
+            <td>Add to Photos</td>
+            <td>
+              Only if you choose to save scanned pages as images. PrintScan never
+              reads your photo library; pages you import through the photo picker
+              are handed to the app by iOS, one selection at a time.
+            </td>
+          </tr>
+          <tr>
+            <td>Face ID or Touch ID</td>
+            <td>
+              Only if you turn on the app lock. iOS performs the match and tells
+              the app whether it succeeded. Your biometric data never reaches the
+              app.
+            </td>
+          </tr>
+        </table>
+
+        <h2>What does leave the device</h2>
+        <p>
+          PrintScan itself makes no network requests. Three third-party SDKs do,
+          and this is what they send. None of it is linked to your identity and
+          none of it is used to track you across apps or websites.
+        </p>
+
+        <h3>Sentry — crash and error reports</h3>
+        <p>
+          When the app crashes or hits an error, Sentry receives the stack trace,
+          the app version, the iOS version and the device model. Screenshots,
+          view-hierarchy capture and personally identifying information are all
+          turned off in the app's configuration, so no part of a scanned page can
+          be attached to a report. Document titles and folder names are stripped
+          from the diagnostic breadcrumbs before a report is sent.
+          <a href="https://sentry.io/privacy/">Sentry privacy policy</a>.
+        </p>
+
+        <h3>PostHog — anonymous product analytics</h3>
+        <p>
+          PostHog receives a small fixed set of events so I can see which features
+          are used: a scan finishing, a signature being applied, a print starting,
+          the paywall appearing, a purchase completing and a restore completing.
+          Each event carries counts and fixed values such as the page count, the
+          chosen layout, and where the action started from. No document title,
+          file name, recognised text or anything you typed or drew is ever
+          included.
+        </p>
+        <p>
+          Events go to PostHog's EU region. Every event is sent with IP-based
+          location lookup disabled, so no location is derived from it. No profile
+          is created for you: the app never identifies a user and screen-view
+          autocapture is off.
+          <a href="https://posthog.com/privacy">PostHog privacy policy</a>.
+        </p>
+
+        <h3>RevenueCat — subscriptions</h3>
+        <p>
+          If you subscribe, Apple handles the payment; PrintScan never sees your
+          card, your Apple Account or your billing address. RevenueCat receives
+          the purchase and renewal state of the subscription so the app can answer
+          whether this install is entitled to the paid features. The app never
+          sets a user ID, so RevenueCat holds only an anonymous per-install
+          identifier.
+          <a href="https://www.revenuecat.com/privacy/"
+            >RevenueCat privacy policy</a
+          >.
+        </p>
+
+        <h2>Data collection summary</h2>
+        <p>
+          This is the same disclosure shown on the App Store listing. Nothing is
+          linked to your identity and nothing is used for tracking.
+        </p>
+        <table>
+          <tr>
+            <th>Data</th>
+            <th>Purpose</th>
+          </tr>
+          <tr>
+            <td>Purchase history</td>
+            <td>App functionality (RevenueCat)</td>
+          </tr>
+          <tr>
+            <td>Product interaction and other usage data</td>
+            <td>Analytics (PostHog)</td>
+          </tr>
+          <tr>
+            <td>Crash, performance and other diagnostic data</td>
+            <td>App functionality (Sentry)</td>
+          </tr>
+        </table>
+        <p>
+          Contact information, location, contacts, browsing history, identifiers
+          and user content — which includes your documents and scans — are not
+          collected.
+        </p>
+
+        <h2>Retention</h2>
+        <p>
+          Crash reports, analytics events and subscription records are retained by
+          Sentry, PostHog and RevenueCat under their own retention schedules,
+          linked above. Because none of that data is linked to you, it cannot be
+          traced back to an individual on request. Everything else lives only on
+          your iPhone, for as long as you keep it there.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          PrintScan is not directed at children and does not knowingly collect
+          data from them.
+        </p>
+
+        <h2>Changes</h2>
+        <p>
+          If this policy changes, the updated version is published on this page
+          with a new effective date, before the app version it describes is
+          released.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about this policy go to
+          <a href="mailto:business.anilsoylu@gmail.com">business.anilsoylu@gmail.com</a>.
+        </p>
+      </main>
+
+      <footer class="site-footer">
+        <a href="../../index.html">Anıl Soylu</a>
+        <a href="../index.html">PrintScan</a>
+        <a href="../support/index.html">Support</a>
+      </footer>
+    </div>
+  </body>
+</html>
