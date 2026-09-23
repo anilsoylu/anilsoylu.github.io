@@ -23,7 +23,7 @@
 
       <main>
         <h1>Wardrobly Privacy Policy</h1>
-        <p class="meta">Effective 15 September 2026.</p>
+        <p class="meta">Effective 23 September 2026.</p>
 
         <!--
           TODO before App Store submission: name the legal entity that operates
@@ -51,6 +51,11 @@
           stripped on upload, so the location and the camera details a photo
           carries are removed before it is stored.
         </p>
+        <p>
+          For virtual try-on, a full-body photo of yourself and the outfit
+          images rendered from it. You can remove the try-on photo in the app
+          at any time.
+        </p>
 
         <h3>Garment attributes</h3>
         <p>
@@ -68,6 +73,21 @@
 
         <h3>Social graph</h3>
         <p>Who you follow, and what you like, save and block.</p>
+
+        <h3>Device identifiers</h3>
+        <p>
+          If you allow notifications, the push token of your device, with its
+          platform and language, so the app can tell you when a try-on is ready
+          or someone interacts with you. It is removed when you turn
+          notifications off, sign out, or the device stops accepting them.
+        </p>
+        <p>
+          A DeviceCheck token from Apple. It lets Wardrobly read and set two
+          flags Apple keeps for your device, recording whether it has already
+          received the starter credits and a referral reward, so deleting and
+          recreating an account does not grant them again. The token itself is
+          not stored.
+        </p>
 
         <h3>Subscription status</h3>
         <p>
@@ -127,6 +147,14 @@
             <td>Sign-in</td>
           </tr>
           <tr>
+            <td>Apple</td>
+            <td>Push notification delivery, DeviceCheck</td>
+          </tr>
+          <tr>
+            <td>Expo</td>
+            <td>Push notification delivery</td>
+          </tr>
+          <tr>
             <td>RevenueCat</td>
             <td>Subscription status</td>
           </tr>
@@ -144,6 +172,10 @@
             <td>OpenRouter</td>
             <td>AI features</td>
           </tr>
+          <tr>
+            <td>fal.ai</td>
+            <td>Virtual try-on, an AI image model</td>
+          </tr>
         </table>
 
         <h3>OpenRouter</h3>
@@ -155,6 +187,14 @@
           The paid smart retag feature is the one exception: it sends a
           temporary link to a single garment photo to a vision model so the
           model can re-read that item's attributes.
+        </p>
+
+        <h3>fal.ai</h3>
+        <p>
+          When you start a virtual try-on, fal.ai receives temporary links to
+          your try-on photo and to the images of the garments in the outfit,
+          and returns the rendered image. The links expire after one hour.
+          Nothing else about you or your account is sent.
         </p>
 
         <h2>Deleting your data</h2>
